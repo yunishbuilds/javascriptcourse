@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Like Counter</h1>
+    <h2 id="Like">Like:0</h2>
+    <button onclick="increase()">IncreaseLike</button>
+    <button onclick="decrease()">DecreaseLike</button>  
+    <script>
+        let Like=0
+        function increase(){
+            Like=Like+1;
+        document.getElementById("Like").innerHTML="Like:"+Like;
+        }
+        function decrease(){
+            Like=Like-1;
+            document.getElementById("Like").innerHTML="Like:"+Like;
+        }
+    </script> 
+</body>
+</html>
