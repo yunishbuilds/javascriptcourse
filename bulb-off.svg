@@ -1,0 +1,12 @@
+<svg width="120" height="180" viewBox="0 0 120 180" xmlns="http://www.w3.org/2000/svg">
+  <path d="M60,20 C35,20 18,40 18,62 C18,82 30,95 38,108 L82,108 C90,95 102,82 102,62 C102,40 85,20 60,20 Z" fill="#c8c8c8" stroke="#888" stroke-width="1.5" fill-opacity="0.5"/>
+  <path d="M48,100 L48,82 Q52,78 56,82 L56,78 Q60,74 64,78 L64,82 Q68,78 72,82 L72,100" fill="none" stroke="#777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="48" y1="100" x2="48" y2="108" stroke="#777" stroke-width="2"/>
+  <line x1="72" y1="100" x2="72" y2="108" stroke="#777" stroke-width="2"/>
+  <rect x="38" y="108" width="44" height="10" rx="2" fill="#999" stroke="#777" stroke-width="1"/>
+  <rect x="40" y="118" width="40" height="10" rx="2" fill="#888" stroke="#777" stroke-width="1"/>
+  <rect x="42" y="128" width="36" height="10" rx="2" fill="#999" stroke="#777" stroke-width="1"/>
+  <line x1="40" y1="113" x2="80" y2="113" stroke="#777" stroke-width="0.8" opacity="0.6"/>
+  <line x1="40" y1="123" x2="80" y2="123" stroke="#777" stroke-width="0.8" opacity="0.6"/>
+  <rect x="46" y="138" width="28" height="8" rx="4" fill="#888" stroke="#777" stroke-width="1"/>
+</svg>
