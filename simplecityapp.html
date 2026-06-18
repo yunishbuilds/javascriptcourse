@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<input type="text" placeholder="Enter the city name" id="AgeInput">
+<button onclick="checkCity()">CheckCity</button>
+<h1 id="cityname"></h1>
+<script>
+    function checkCity(){
+        let city=document.getElementById("AgeInput").value;
+        document.getElementById("cityname").innerHTML="i am from the city "+city
+    }
+</script>
+</body>
+</html>
